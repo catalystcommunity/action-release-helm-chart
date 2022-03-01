@@ -1,3 +1,10 @@
+# 1.0.0 (2022-03-01)
+
+
+### Bug Fixes
+
+* Add logic to perform a semantic release. ([#1](https://github.com/catalystsquad/action-release-helm-chart/issues/1)) ([a60dfc0](https://github.com/catalystsquad/action-release-helm-chart/commit/a60dfc0967392b6f15a01e5619e70ef1615e5c69))
+
 # 1.0.0 (2022-02-28)
 
 

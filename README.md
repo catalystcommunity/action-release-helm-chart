@@ -1,11 +1,11 @@
 <!-- start title -->
 
-# GitHub Action:Hello World
+# GitHub Action:Release helm chart
 
 <!-- end title -->
 <!-- start description -->
 
-Greet someone
+Releases helm charts using semantic-release with the @catalystsquad/release-config-helm release config. This action uses main and alpha branches and releases. This action deletes the alpha branch and re-creates it from main after a release from main
 
 <!-- end description -->
 <!-- start contents -->
@@ -13,19 +13,27 @@ Greet someone
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-composite-action-template@undefined
+- uses: catalystsquad/action-release-helm-chart@undefined
   with:
-    # Who to greet
-    # Default: World
-    who-to-greet: ""
+    # github token to use for the release, if you want this to trigger other workflows
+    # such as flows on release created, pass in a PAT
+    # Default: ${{ github.token }}
+    token: ""
+
+    # If true, this action will disable the `include administrators` setting in branch
+    # protection for this branch, and re-enable it after release. Re-enabling is run
+    # using always()
+    # Default: false
+    toggle-admins: ""
 ```
 
 <!-- end usage -->
 <!-- start inputs -->
 
-| **Input**          | **Description** | **Default** | **Required** |
-| :----------------- | :-------------- | :---------: | :----------: |
-| **`who-to-greet`** | Who to greet    |   `World`   |   **true**   |
+| **Input**           | **Description**                                                                                                                                                                |      **Default**      | **Required** |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------: | :----------: |
+| **`token`**         | github token to use for the release, if you want this to trigger other workflows such as flows on release created, pass in a PAT                                               | `${{ github.token }}` |  **false**   |
+| **`toggle-admins`** | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                       |  **false**   |
 
 <!-- end inputs -->
 <!-- start outputs -->
@@ -49,7 +57,7 @@ on:
       - main
       - alpha
     paths:
-      - 'chart/**'
+      - "chart/**"
 jobs:
   release:
     name: Release chart
