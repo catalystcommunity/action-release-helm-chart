@@ -2,7 +2,7 @@
 repository:
   # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings.
   # A short description of the repository that will show up on GitHub
-  description: Template to build composite actions off of
+  description: Action to release a helm chart using @catalystsquad/release-config-helm release config
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
   # Either `true` to enable issues for this repository, `false` to disable them.
@@ -34,7 +34,7 @@ repository:
   # vulnerability alerts.
   enable_vulnerability_alerts: true
   # Set to true to mark this as a template repository
-  is_template: true
+  is_template: false
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
