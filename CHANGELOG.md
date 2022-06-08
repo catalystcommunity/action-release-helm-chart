@@ -1,3 +1,5 @@
+# [2.0.0](https://github.com/catalystsquad/action-release-helm-chart/compare/v1.0.0...v2.0.0) (2022-06-08)
+
 # 1.0.0 (2022-03-01)
 
 
