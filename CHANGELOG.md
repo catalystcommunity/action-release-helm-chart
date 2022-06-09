@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.4...v2.0.5) (2022-06-09)
+
+
+### Bug Fixes
+
+* revert to no version number, it will default to 2.x anyway ([#7](https://github.com/catalystsquad/action-release-helm-chart/issues/7)) ([0e52e65](https://github.com/catalystsquad/action-release-helm-chart/commit/0e52e65759cc40ee1942fd40e87da28912d4aef8))
+
 ## [2.0.4](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.3...v2.0.4) (2022-06-09)
 
 
