@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.0...v2.0.1) (2022-06-09)
+
+
+### Bug Fixes
+
+* use new release config to preserve packaging ([#3](https://github.com/catalystsquad/action-release-helm-chart/issues/3)) ([829ad46](https://github.com/catalystsquad/action-release-helm-chart/commit/829ad467364dd606126e101fee010ecd1447c5dd))
+
 # [2.0.0](https://github.com/catalystsquad/action-release-helm-chart/compare/v1.0.0...v2.0.0) (2022-06-08)
 
 # 1.0.0 (2022-03-01)
