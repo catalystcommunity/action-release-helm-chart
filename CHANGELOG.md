@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.3...v2.0.4) (2022-06-09)
+
+
+### Bug Fixes
+
+* try using it in a piped list ([#6](https://github.com/catalystsquad/action-release-helm-chart/issues/6)) ([bfa96ed](https://github.com/catalystsquad/action-release-helm-chart/commit/bfa96ed92273e19abb4add57ff52c53fbdd0f5df))
+
 ## [2.0.3](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.2...v2.0.3) (2022-06-09)
 
 
