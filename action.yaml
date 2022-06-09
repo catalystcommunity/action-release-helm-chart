@@ -28,7 +28,7 @@ runs:
       uses: cycjimmy/semantic-release-action@v2
       with:
         extends: |
-          @catalystsquad/release-config-helm@2
+          @catalystsquad/release-config-helm
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
     - uses: dawidd6/action-git-user-config@v1
