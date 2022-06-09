@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.2...v2.0.3) (2022-06-09)
+
+
+### Bug Fixes
+
+* drop carat from version number ([#5](https://github.com/catalystsquad/action-release-helm-chart/issues/5)) ([14497b7](https://github.com/catalystsquad/action-release-helm-chart/commit/14497b7f04868a3ddea549cd922683b379d32107))
+
 ## [2.0.2](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.1...v2.0.2) (2022-06-09)
 
 
