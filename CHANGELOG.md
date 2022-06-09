@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.1...v2.0.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* adjust extends package version number ([#4](https://github.com/catalystsquad/action-release-helm-chart/issues/4)) ([230993a](https://github.com/catalystsquad/action-release-helm-chart/commit/230993a1fdee85f8a79568beda2daf2399941a71))
+
 ## [2.0.1](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.0...v2.0.1) (2022-06-09)
 
 
