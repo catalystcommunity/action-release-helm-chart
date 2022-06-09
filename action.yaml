@@ -27,13 +27,13 @@ runs:
     - id: semantic-release
       uses: cycjimmy/semantic-release-action@v2
       with:
-        extends: '@catalystsquad/release-config-helm'
+        extends: '@catalystsquad/release-config-helm@>=2.0.0'
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
     - uses: dawidd6/action-git-user-config@v1
       if: github.ref == 'main' && always()
     - name: merge main to alpha
-      if: github.ref == 'main' && inputs.merge-to-alpha == 'true'
+      if: github.ref == 'main' && inputs.merge-to-alpha == 'true' && always()
       shell: bash
       run: |
         git pull
