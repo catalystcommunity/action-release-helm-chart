@@ -25,7 +25,7 @@ runs:
         token: ${{ inputs.token }}
         include-admins: false
     - id: semantic-release
-      uses: cycjimmy/semantic-release-action@v2
+      uses: cycjimmy/semantic-release-action@v3
       with:
         extends: |
           @catalystsquad/release-config-helm
