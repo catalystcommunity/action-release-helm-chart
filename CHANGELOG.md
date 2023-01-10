@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.5...v2.0.6) (2023-01-10)
+
+
+### Bug Fixes
+
+* adjust semantic version action version ([#9](https://github.com/catalystsquad/action-release-helm-chart/issues/9)) ([a29ef28](https://github.com/catalystsquad/action-release-helm-chart/commit/a29ef285c53669a47988d73878fb14effd04d442))
+
 ## [2.0.5](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.4...v2.0.5) (2022-06-09)
 
 
