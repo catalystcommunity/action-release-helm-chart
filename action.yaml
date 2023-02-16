@@ -12,7 +12,7 @@ inputs:
   merge-to-alpha:
     description: 'If true, merge main back to alpha for gitflow style'
     required: false
-    default: 'false'
+    default: 'true'
 runs:
   using: "composite"
   steps:
