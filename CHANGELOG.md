@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.6...v2.0.7) (2023-02-16)
+
+
+### Bug Fixes
+
+* default merge to alpha to true ([#10](https://github.com/catalystsquad/action-release-helm-chart/issues/10)) ([93b6e49](https://github.com/catalystsquad/action-release-helm-chart/commit/93b6e491cab8c5fe8fbd3e6b19d9f42e3b4ea394))
+
 ## [2.0.6](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.5...v2.0.6) (2023-01-10)
 
 
