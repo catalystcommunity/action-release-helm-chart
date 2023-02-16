@@ -27,7 +27,7 @@ Releases helm charts using semantic-release with the @catalystsquad/release-conf
     toggle-admins: ""
 
     # If true, merge main back to alpha for gitflow style
-    # Default: false
+    # Default: true
     merge-to-alpha: ""
 ```
 
@@ -38,7 +38,7 @@ Releases helm charts using semantic-release with the @catalystsquad/release-conf
 | :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------: | :----------: |
 | **`token`**          | github token to use for the release, if you want this to trigger other workflows such as flows on release created, pass in a PAT                                               | `${{ github.token }}` |  **false**   |
 | **`toggle-admins`**  | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |        `false`        |  **false**   |
-| **`merge-to-alpha`** | If true, merge main back to alpha for gitflow style                                                                                                                            |        `false`        |  **false**   |
+| **`merge-to-alpha`** | If true, merge main back to alpha for gitflow style                                                                                                                            |        `true`         |  **false**   |
 
 <!-- end inputs -->
 <!-- start outputs -->
