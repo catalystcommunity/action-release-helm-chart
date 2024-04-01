@@ -34,7 +34,7 @@ runs:
     - uses: dawidd6/action-git-user-config@v1
       if: github.ref == 'main' && always()
     - name: merge main to alpha
-      if: github.ref == 'main' && inputs.merge-to-alpha == 'true' && always()
+      if: github.ref == 'main' && inputs.merge-to-alpha == 'true'
       shell: bash
       run: |
         git pull
