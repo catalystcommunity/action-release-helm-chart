@@ -1,3 +1,10 @@
+## [2.0.8](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.7...v2.0.8) (2023-10-06)
+
+
+### Bug Fixes
+
+* change ref context check to use full ref format ([#11](https://github.com/catalystsquad/action-release-helm-chart/issues/11)) ([f360d35](https://github.com/catalystsquad/action-release-helm-chart/commit/f360d355b591add91d7755972336d162d516ba7e))
+
 ## [2.0.7](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.6...v2.0.7) (2023-02-16)
 
 
