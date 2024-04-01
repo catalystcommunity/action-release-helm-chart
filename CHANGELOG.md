@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.8...v2.0.9) (2024-04-01)
+
+
+### Bug Fixes
+
+* remove `always()` on commit step ([#12](https://github.com/catalystsquad/action-release-helm-chart/issues/12)) ([2318d84](https://github.com/catalystsquad/action-release-helm-chart/commit/2318d8428a6aa24b4cb63d834034c8127dbe2802))
+
 ## [2.0.8](https://github.com/catalystsquad/action-release-helm-chart/compare/v2.0.7...v2.0.8) (2023-10-06)
 
 
