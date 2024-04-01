@@ -32,7 +32,7 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
     - uses: dawidd6/action-git-user-config@v1
-      if: github.ref == 'refs/heads/main' && always()
+      if: github.ref == 'refs/heads/main'
     - name: merge main to alpha
       if: github.ref == 'refs/heads/main' && inputs.merge-to-alpha == 'true'
       shell: bash
