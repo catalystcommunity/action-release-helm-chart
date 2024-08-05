@@ -5,7 +5,7 @@
 <!-- end title -->
 <!-- start description -->
 
-Releases helm charts using semantic-release with the @catalystsquad/release-config-helm release config. This action uses main and alpha branches and releases. This action deletes the alpha branch and re-creates it from main after a release from main
+Releases helm charts using semantic-release with the @catalystcommunity/release-config-helm release config. This action uses main and alpha branches and releases. This action deletes the alpha branch and re-creates it from main after a release from main
 
 <!-- end description -->
 <!-- start contents -->
@@ -13,7 +13,7 @@ Releases helm charts using semantic-release with the @catalystsquad/release-conf
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-release-helm-chart@undefined
+- uses: catalystcommunity/action-release-helm-chart@undefined
   with:
     # github token to use for the release, if you want this to trigger other workflows
     # such as flows on release created, pass in a PAT
@@ -69,7 +69,7 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: catalystsquad/action-release-helm-chart@v1
+      - uses: catalystcommunity/action-release-helm-chart@v1
         with:
           token: ${{ secrets.AUTOMATION_PAT }}
 ```
